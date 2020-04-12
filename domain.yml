@@ -1,0 +1,170 @@
+intents:
+- covid_myth_cure
+- covid_myth_antibiotics
+- covid_myth_garlic
+- covid_myth_saline_rinse
+- covid_myth_other_vaccines
+- covid_myth_alcohol_chlorine
+- covid_myth_thermal_scanners
+- covid_myth_UV
+- covid_myth_hand_dryers
+- covid_myth_hot_bath
+- covid_myth_pets
+- covid_myth_mosquitos
+- covid_myth_heat_kills
+- covid_myth_cold_kills
+- covid_myth_only_old
+- covid_children_stress
+- covid_stress
+- covid_donate
+- covid_travel_advice
+- covid_myths_summary
+- covid_donts
+- covid_on_surfaces
+- covid_infection_sources
+- covid_incubation
+- covid_masks
+- covid_SARS
+- covid_treatments
+- covid_most_at_risk
+- covid_anxiety
+- covid_infection_likelihood
+- covid_protection
+- covid_how_spread
+- covid_what_is_corona_covid-19
+- covid_symptoms
+- wash_hands_how
+- wash_hands_frequency
+- collect_fallback
+- fallback
+- goodbye
+- greeting
+
+responses:
+
+  utter_answer_Intent:
+  - text: "SW_CD"
+
+  utter_answer_covid_myth_cure:
+  - text: "Mbaka ivi, hakuna dawa ya kipekee iliyotolewa kwa kuzuia ao kutunza coronavirus."
+
+  utter_answer_covid_myth_antibiotics:
+  - text: "Dawa ya kuuwa vidudu mwilini hayizuwiye virusi, inauwa tu vidudu mwilini"
+
+  utter_answer_covid_myth_garlic:
+  - text: "Ayi ni ya lazima ku afya alakini akuna uhakikisho ya kutoka ku iyi magonjwa ya sasa kama kukula ayi inakinga watu na virusi ya corona."
+
+  utter_answer_covid_myth_saline_rinse:
+  - text: "Akuna uhakikisho kama mara kwa mara kusafisha pua na serumu ilikinga watu kuambukizwa na coronavirus."
+
+  utter_answer_covid_myth_other_vaccines:
+  - text: "Chanjo ya ugonjwa ya mafafa, kama vile chanjo pneumococcal na Haemophilus influenzae ya haina b (Hib) chanjo, haikiinge na virusi ya corona."
+
+  utter_answer_covid_myth_alcohol_chlorine:
+  - text: "Kupuliziya dawa ya kimaji ya kuuwa uchafu ao klorini ku mwili haiwezi uwa virusi yenye ilisha ingia mu mwili yako"
+
+  utter_answer_covid_myth_thermal_scanners:
+  - text: "Chombo ya kupima homa (thermo flash) inaweza chunguza kama batu biko na homa alakini haiwezi chunguza kama ndio ao apana mtu iko na virusi ya corona."
+
+  utter_answer_covid_myth_UV:
+  - text: "Mwangaza ya ultraviolet haipashwe kutumikishiwa kwa kusukula viombo kwa sababu inaweza tuma ngozi inawasha"
+
+  utter_answer_covid_myth_hand_dryers:
+  - text: "Chombo ya kukausha mikono haiwezi uwa virusi ya corona"
+
+  utter_answer_covid_myth_hot_bath:
+  - text: "Kunawa na maji ya moto haiwezi zuia virusi ya corona"
+
+  utter_answer_covid_myth_pets:
+  - text: "Akuna uhakikisho kama ma nyama za nyumbani/ ma nyama kama vile imbwa ao pusi inaweza kuambukiza virusi ya corona."
+
+  utter_answer_covid_myth_mosquitos:
+  - text: "Virusi ya corona haiwezi kuambukizwa kupitia imbu."
+
+  utter_answer_covid_myth_heat_kills:
+  - text: "Virusi ya corona inaweza kuambukizwa katika maeneo yenye hali ya hewa ya joto na ya baridi"
+
+  utter_answer_covid_myth_cold_kills:
+  - text: "Baridi na neige habiwezi uwa virusi ya corona."
+
+  utter_answer_covid_myth_only_old:
+  - text: "Batu ba miaka zote banaweza kuambukizwa na virusi ya corona. bazee, na batu benyi biko na magonjwa za kukawiya (kama vile asme, sukari, ugonjwa wa moyo) banaonekana kukuwa katika hatari zaidi ya kushambuliwa na virusi."
+
+  utter_answer_covid_children_stress:
+  - text: "Batoto banaweza ku jibu ku wasiwasi mu njia tafauti kama vile kubana pembeni ya mzazi, kusipo sema, kubaki mu fasi yake yakipekee, ku sirika, ku kuwa mukaramusi, kukoyola ku kitanda, na bingine. kuwa pamoja na mutoto wako na umu unge mkono, sikiliza tatizo zabo na ubaoneshe upendo. batoto bana hitaji upendo wa bakubwa katika hali za magumu. bapatiye wakati. Kumbuka kubasikiliza, ongeya nabo na unyenyekevu kwa kubatosha boga. ikiwezekana ifanye gisi yote bapate wakati ya kucheza. weka batoto karibu na bazazi babo na familia zabo na batu ba kubachunga gisi inawezekana. kama kunakuwa separation kama vile kuba tiya mu hospitali, jikaze bakuwe naongeleshana mara mingi kama vile ku simu. endeleya byenye unafanya kila siku kama vile inavyowezekana"
+
+  utter_answer_covid_stress:
+  - text: "Ni kawaida kujisikia huzuni, msongo, kuchanganyikiwa, hofu au hasira wakati wa mgogoro. Kuzungumza kwa watu unaowaamini anaweza msaada. Wasiliana rafiki yako na familia. Kama ni lazima kukaa nyumbani, kudumisha maisha ya afya - ikiwa ni pamoja malazi, kulala, mazoezi na mawasiliano ya kijamii na wapendwa nyumbani na kwa barua pepe na simu pamoja na familia na marafiki. Je, matumizi ya sigara, pombe au dawa nyingine ya kukabiliana na hisia zako. Kama kuhisi kuzidiwa, majadiliano kwa mhudumu wa afya au mshauri. Na mpango, ambapo kwenda na jinsi ya kutafuta msaada kwa mahitaji ya afya ya mwili na akili kama inavyotakiwa. ℹ Kupata ukweli. Kukusanya taarifa kwamba itasaidia kuamua kwa usahihi hatari ili uweze kuchukua tahadhari busara. Kupata chanzo kuaminika unaweza kutegemea kama vile tovuti WHO au, shirika ndani au hali ya afya ya umma. Limit wasiwasi na fadhaa na kupunguza muda na familia yako kutumia kuangalia au kusikiliza chanjo vyombo vya habari kwamba wanaona kama upsetting. Chora kwenye ujuzi una kutumia awali ambayo yamesaidia kusimamia matatizo maisha ya awali na kutumia ujuzi wale ili kukusaidia kudhibiti hisia zako wakati changamoto ya kuzuka hii."
+
+  utter_answer_covid_donate:
+  - text: "Ku pana msaada kwa kusaidia kupiganisha coronavirus Covid-19 Solidarity Response Fund ni njia nzuri kwa watu, vikundi via kusaidia na biashara ku pana muchango yawo ku kazi ya shirika la afya duniani OMS kwa kupiganisha ugonjwa. Pana msaada apa: https://bit.ly/who-covid-19-donate"
+
+  utter_answer_covid_travel_advice:
+  - text: "WHO inaendelea kutoa ushauri dhidi ya maombi ya vikwazo ya kusafiri au kufanya biashara na nchi inakabiliwa kuzuka COVID-19. Ni jambo la busara kwa ajili ya wasafiri ambao ni wagonjwa kwa kuchelewa au kuepuka kusafiri maeneo yaliyoathirika, hasa kwa ajili ya wasafiri wazee na watu wenye magonjwa sugu au hali ya msingi ya afya. _Maeneo yaliyoathirika_ wanaochukuliwa nchi hizo, mikoa, wilaya au miji kupitia maambukizi unaoendelea wa COVID-19, tofauti na maeneo ya kutoa taarifa ya matukio tu kutoka nje. mapendekezo ya jumla kwa wasafiri wote ni pamoja na: Osha mikono yako mara kwa mara Epuka kugusa macho yako, mdomo na pua Jalada mdomo na pua kwa kiwiko bent yako au tishu wakati kukohoa au kuchemua Kaa zaidi ya mita 1 (3 miguu) mbali na mtu ambaye ni mgonjwa Kufuata njia sahihi usafi wa chakula kuvaa tu kinyago kama wewe ni mgonjwa na COVID-19 dalili (hasa kukohoa) au kuangalia baada ya mtu ambaye anaweza kuwa na COVID-19. Wasafiri kurudi kutoka maeneo yaliyoathirika anatakiwa: Self-kufuatilia kwa dalili kwa siku 14 na kufuata itifaki za taifa kupokea. Baadhi ya nchi inaweza kuhitaji kurudi wasafiri kuingia karantini. Kama dalili kutokea, kama vile homa, au kikohozi au kupumua kwa shida, wasafiri wanashauriwa kuwasiliana watoa huduma za afya, hasa kwa njia ya simu, na kuwajulisha kuhusu dalili zao na historia yao ya kusafiri. Kwa karibuni ushauri wa usafiri: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/travel-advice Kwa ripoti ya karibuni hali ya maeneo yaliyoathirika: https: //www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/ Kwa ushauri wa vitendo sahihi usafi wa chakula: https://www.who.int/foodsafety/publications/consumer/en/5keys_en.pdf?ua=1&ua=1 Kwa ushauri wa kutembelea masoko kuishi mnyama: https://www.who.int/health-topics/coronavirus/who-recommendations-to-reduce-risk-of-transmission-of-emerging-pathogens-from-animals-to-humans-in-live-animal- masoko"
+
+  utter_answer_covid_myths_summary:
+  - text: "Kuna mengi ya uongo kote habari. Hizi ni ukweli. - Watu wa umri wote wanaweza kuambukizwa na coronavirus. wazee, na watu walio na hali ya awali iliyopo ya matibabu (kama vile pumu, kisukari, ugonjwa wa moyo) kuonekana kuwa katika hatari zaidi ya kuwa mgonjwa sana na virusi. Baridi ya hewa na theluji hawezi kuua coronavirus. coronavirus UNAWEZA kuambukizwa katika maeneo yenye hali ya hewa ya joto na baridi coronavirus hawezi kuambukizwa kwa kuumwa na mbu. Kuna NO ushahidi kuwa rafiki wanyama / wanyama kama vile mbwa au paka wanaweza kusambaza coronavirus. Kuchukua umwagaji moto haina kuzuia coronavirus Hand dryers ni NOT ufanisi katika mauaji ya coronavirus Ultraviolet mwanga haipaswi kutumiwa kwa sterilization na inaweza kusababisha ngozi kuwasha Thermal scanners inaweza kuchunguza ikiwa watu kuwa na homa lakini hawezi kuchunguza kama au mtu ana coronavirus Kunyunyizia pombe au klorini juu ya mwili wako itakuwa si kuua virusi tayari kuingia mwili wako Chanjo dhidi ya homa ya mapafu, kama vile chanjo pneumococcal na Haemophilus influenzae aina b (Hib) chanjo, DO NOT kutoa kinga dhidi ya coronavirus. Kuna NO ushahidi kuwa mara kwa mara kusafisha pua kwa chumvi ina ulinzi watu kutoka kuambukizwa na coronavirus. Vitunguu ni afya lakini kuna NO ushahidi kutoka kuzuka sasa kuwa kula vitunguu ina ulinzi watu kutoka coronavirus. Antibiotics kufanya kazi dhidi ya virusi, antibiotics tu kazi dhidi ya bakteria. Hadi sasa, kuna NO maalum dawa ilipendekeza kuzuia au kutibu coronavirus. Angalia ukweli kwenye tovuti WHO: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+
+  utter_answer_covid_donts:
+  - text: "hatua zifuatazo SIO ufanisi dhidi COVID-2019 na inaweza kuwa na madhara: - Sigara - wamevaa masks mbalimbali - Matumizi ya antibiotics Katika hali yoyote, kama una homa, kukohoa na ugumu wa kupumua kutafuta huduma ya matibabu mapema ili kupunguza hatari ya maambukizi kali zaidi na kuhakikisha kushiriki historia yako ya hivi karibuni kusafiri na mtoa huduma ya afya yako."
+
+  utter_answer_covid_on_surfaces:
+  - text: "Si fulani kwa muda gani virusi vinavyosababisha COVID-19 aliyesalia katika nyuso, lakini inaonekana kuwa na tabia kama coronaviruses nyingine. Utafiti unaonyesha kuwa coronaviruses (pamoja na habari za awali juu ya COVID-19 virus) inaweza kuendelea juu ya nyuso kwa saa chache au siku kadhaa. Hii inaweza kutofautiana katika hali tofauti (kwa mfano aina ya uso, joto au unyevunyevu wa mazingira). uwezekano wa mtu aliyeambukizwa kuchafua bidhaa za biashara ni ya chini na hatari ya kuambukizwa virusi vinavyosababisha COVID-19 kutoka mfuko ambayo imekuwa wakiongozwa, alisafiri, na wazi kwa hali tofauti na hali ya joto ni pia chini. Kama unafikiri uso inaweza kuwa ya kuambukizwa, safi na disinfectant rahisi kuua virusi na kujilinda mwenyewe na wengine. Osha mikono yako na kusugua spiriti au safisha yao kwa sabuni na maji. Epuka kugusa macho, mdomo, au pua."
+
+  utter_answer_covid_infection_sources:
+  - text: "Coronaviruses ni familia kubwa ya virusi ambayo ni ya kawaida kwa wanyama. Mara kwa mara, watu kuambukizwa na virusi hivi ambazo zinaweza kisha kuenea kwa watu wengine. Kwa mfano, SARS-cov alikuwa yanayohusiana na paka civet na mers-cov inasambazwa na ngamia ngamia. vyanzo iwezekanavyo wanyama ya COVID-19 bado kuthibitishwa. Ya kujikinga, kama vile wakati kutembelea masoko kuishi wanyama, kuepuka kuwasiliana moja kwa moja na wanyama na sehemu katika kuwasiliana na wanyama. Kuhakikisha mbinu bora usalama wa chakula wakati wote. Kushughulikia nyama mbichi, maziwa au mnyama vyombo kwa uangalifu ili kuepuka uchafuzi wa chakula kibichi na kuepuka kuteketeza bidhaa mbichi au vilivyopikwa mnyama. Wakati kumekuwa na tukio moja ya mbwa kuwa wameambukizwa katika Hong Kong, hadi sasa, hakuna ushahidi kuwa mbwa, paka au mnyama yeyote anaweza kuwasilisha COVID-19. COVID-19 ni hasa kuenea kwa njia ya matone zinazozalishwa wakati kuambukizwa mtu mafua, kupiga chafya, au anaongea. Kwa kujilinda, safi mikono mara kwa mara na vizuri. WHO inaendelea kufuatilia utafiti karibuni kwenye hii na nyingine mada COVID-19 na sasisha matokeo mapya zinapatikana. hatari ya kuambukizwa COVID-19 kutoka kinyesi cha mtu aliyeambukizwa inaonekana kuwa ya chini. Wakati uchunguzi wa awali zinaonyesha virusi inaweza kuwa sasa katika kinyesi wakati mwingine, kuenea kupitia njia hii si kipengele kuu ya kuzuka. WHO ni kutathmini utafiti unaoendelea juu ya njia COVID-19 ni kuenea na itaendelea kutumia matokeo ya utafiti mpya. Kwa sababu hii ni hatari, hata hivyo, ni sababu nyingine ya mikono safi mara kwa mara, baada ya kutumia bafuni na kabla ya kula."
+
+  utter_answer_covid_incubation:
+  - text: "Kipindi incubation maana muda kati ya kuambukizwa virusi na wanaanza kuwa na dalili za ugonjwa huo. makadirio mengi ya kipindi cha kupevuka kwa COVID-19 ni kati ya siku 1-14, kawaida karibu siku tano. makadirio haya itakuwa updated kama data zaidi kupatikana."
+
+  utter_answer_covid_masks:
+  - text: "kuvaa tu kinyago kama wewe ni mgonjwa na COVID-19 dalili (hasa kukohoa) au kuangalia baada ya mtu ambaye anaweza kuwa na COVID-19. Disposable mask uso inaweza tu kutumika mara moja. Kama wewe si mgonjwa au kuangalia baada ya mtu ambaye ni mgonjwa basi ni kupoteza mask. Kuna duniani kote uhaba wa masks, hivyo WHO inataka watu kutumia masks kwa busara. WHO kushauri matumizi bora ya masks matibabu ili kuepuka upotevu wa rasilimali lazima thamani na mis-matumizi ya masks (tazama Ushauri juu ya matumizi ya masks). ufanisi njia za kujikinga na wengine dhidi ya COVID-19 ni kwa mara nyingi kusafisha mikono, kufunika kikohozi yako na kona ya kiwiko au tishu na kudumisha umbali wa angalau mita 1 (3 miguu) kutoka kwa watu ambao ni kukohoa au kupiga chafya . Angalia hatua ya msingi ya kinga dhidi ya coronavirus mpya kwa taarifa zaidi. Kumbuka, kinyago lazima tu kutumika na wafanyakazi wa afya, huduma ya takers, na watu binafsi na dalili ya kupumua, kama vile homa na kukohoa. Kabla kugusa kinyago, mikono safi kwa mkono kusugua-pombe msingi au sabuni na maji. Kuchukua kinyago na kukagua ni kwa ajili machozi au mashimo. Orient ni upande ni juu ya upande (ambapo chuma strip ni). Kuhakikisha upande mzuri wa kinyago nyuso outwards (upande rangi). Nafasi kinyago kwa uso wako. Bana chuma strip au makali ngumu ya kinyago hivyo huumba sura ya pua yako. Vuta chini chini kinyago ili ni inashughulikia mdomo wako na kidevu yako. Baada ya kutumia, kuchukua mbali kinyago; kuondoa mizunguko elastic kutoka nyuma masikio huku ukiweka kinyago mbali na uso wako na nguo, ili kuepuka kugusa sehemu uwezekano machafu ya mask. Tupa kinyago katika bin imefungwa mara baada ya kutumia. Kufanya usafi mkono baada kugusa au kutupa kinyago - Matumizi pombe kupanguza mikono au, kama kuonekana soiled, kuosha mikono yako kwa sabuni na maji."
+
+  utter_answer_covid_SARS:
+  - text: "virusi vinavyosababisha COVID-19 na moja lililosababisha kuzuka kwa makali papo hapo Respiratory Syndrome (SARS) mwaka 2003 ni kuhusiana na kila mmoja na jeni, lakini magonjwa kusababisha ni tofauti kabisa. SARS ilikuwa zaidi ya mauti lakini kiasi kidogo ya kuambukiza ya COVID-19. Kumekuwa hakuna kuzuka SARS popote duniani tangu mwaka wa 2003."
+
+  utter_answer_covid_treatments:
+  - text: "Wakati baadhi ya magharibi, jadi au nyumbani tiba inaweza kutoa faraja na kupunguza dalili za COVID-19, hakuna ushahidi kuwa dawa sasa wanaweza kuzuia au kutibu ugonjwa huo. WHO haipendekezi kujitibu kwa dawa yoyote, ikiwa ni pamoja na antibiotics, kama kuzuia au tiba ya COVID-19. Hata hivyo, kuna kadhaa unaoendelea kliniki majaribio ambazo ni pamoja na dawa za wote magharibi na jadi. WHO itaendelea kutoa taarifa updated mara tu matokeo ya kliniki zinapatikana. Hakuna chanjo bado. Hadi sasa, hakuna chanjo na hakuna maalum za kuzuia virusi dawa za kuzuia au kutibu COVID-2019. Hata hivyo, wale walioathirika inapaswa kupokea huduma ya dalili kupunguza. Watu wenye ugonjwa wa hatari lazima hospitalini. wagonjwa wengi kupona kutokana na huduma mkono. chanjo iwezekanavyo na baadhi ya matibabu maalum ya madawa ya kulevya ni chini ya uchunguzi. Wao ni kuwa kipimo kwa njia ya majaribio ya kliniki. WHO ni kuratibu juhudi za kubuni chanjo na madawa ya kuzuia na kutibu COVID-19. ufanisi njia za kujikinga na wengine dhidi ya COVID-19 ni kwa mara nyingi kusafisha mikono, kufunika kikohozi yako na kona ya kiwiko au tishu, na kudumisha umbali wa angalau mita 1 (3 miguu) kutoka kwa watu ambao ni kukohoa au kupiga chafya. (Hatua See Basic kinga dhidi coronavirus mpya)."
+
+  utter_answer_covid_most_at_risk:
+  - text: "Wakati tungali najifunza gisi COVID-19 inasumbuwa watu, bazee na  batu benyi biko na magonjwa za kukawiya (kama vile tension, magonjwa ya moyo, cancer ao sukari, ugonjwa wa moyo) banaonekana kukuwa katika hatari zaidi ya kushambuliwa na virusi kushinda bengine batu."
+
+  utter_answer_covid_anxiety:
+  - text: "Ugonjwa kutokana na COVID-19 maambukizi ni kawaida kidogo, hasa kwa watoto na vijana. Hata hivyo, inaweza kusababisha ugonjwa: kuhusu 1 katika kila watu 5 ambao kupata hiyo wanahitaji huduma ya hospitali. Kwa hivyo ni kawaida kabisa kwa watu wasiwasi kuhusu jinsi COVID-19 kuzuka yataathiri wao na wapendwa wao. Tunaweza kuelekeza matatizo yetu katika hatua za kujilinda, wapendwa wetu na jamii zetu. Kwanza kabisa kati ya hatua hizi ni mara kwa mara na ya uhakika kuosha mkono na nzuri ya kupumua usafi wa mazingira. Pili, kuweka taarifa na kufuata ushauri wa mamlaka za afya ndani ikiwa ni pamoja vikwazo vyovyote kuweka juu ya usafiri, harakati na mikutano. Pata maelezo zaidi kuhusu jinsi ya kujilinda kwa https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
+
+  utter_answer_covid_infection_likelihood:
+  - text: "hatari inategemea ambapo wewe ni - na hasa zaidi, kama kuna COVID-19 kuzuka inayojitokeza huko. Kwa watu wengi katika maeneo mengi ya hatari ya kuambukizwa COVID-19 bado ni ya chini. Hata hivyo, kuna sasa maeneo duniani kote (miji au maeneo) ambapo ugonjwa huo kuenea. Kwa watu wanaoishi katika, au kutembelea, maeneo haya hatari ya kuambukizwa COVID-19 ni ya juu. Serikali na mamlaka za afya ni kuchukua hatua kraftfulla kila wakati mpya kesi ya COVID-19 ni kutambuliwa. Kuwa na uhakika wa kuzingatia vikwazo vyovyote mitaa juu ya kusafiri, harakati au mikusanyiko mikubwa. Kushirikiana na juhudi za kudhibiti magonjwa itapunguza hatari ya kuambukizwa au kueneza COVID-19. kuzuka COVID-19 inaweza zilizomo na maambukizi kusimamishwa, kama imeonekana katika China na baadhi ya nchi nyingine. Kwa bahati mbaya, kuzuka mpya inaweza kuibuka kwa kasi. Ni muhimu kufahamu hali ulipo au nia ya kwenda. WHO kuchapisha updates kila siku kwenye COVID-19 hali duniani kote. Unaweza kuona haya katika https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/"
+
+  utter_answer_covid_protection:
+  - text: "Unaweza kupunguza uwezekano wa kuwa wameambukizwa au kueneza COVID-19 kwa kuchukua baadhi ya tahadhari rahisi: Mara kwa mara na kabisa kusafisha mikono yako na kusugua spiriti au safisha yao kwa sabuni na maji.  Kwa nini? Kuosha mikono kwa sabuni na maji au kutumia pombe kupanguza mikono unaua virusi ambayo inaweza kuwa juu ya mikono yako. Dumisha angalau mita 1 (3 miguu) umbali kati ya wewe na mtu yeyote ambaye kukohoa au kupiga chafya. Kwa nini? Mtu anapokohoa au kupiga chafya wao dawa ndogo matone kioevu kutoka pua zao au mdomo ambayo huenda ikawa na virusi vya ukimwi. Kama una karibu sana, unaweza kupumua katika matone, ikiwa ni pamoja COVID-19 virus kama mtu kukohoa ina ugonjwa huo. Epuka kugusa macho, pua na mdomo.  Kwa nini? Mikono kugusa nyuso mengi na unaweza kuchukua virusi. Mara baada ya kuingiwa, mikono inaweza kuhamisha virusi macho, pua au mdomo. Kutoka hapo, virusi vinaweza kuingia mwilini na inaweza kukufanya uwe mgonjwa. Hakikisha, na watu karibu na wewe, kufuata nzuri ya kupumua usafi wa mazingira. Hii ina maana kufunika mdomo na pua kwa kiwiko bent yako au tishu wakati kukohoa au kuchemua. Kisha kuondoa kitambaa kilichotumika mara moja. Kwa nini? Matone kuenea virusi. Kwa kufuata nzuri ya kupumua usafi kulinda watu walio karibu nawe virusi kama vile baridi, mafua na COVID-19. Stay nyumbani kama wewe kujisikia vibaya. Kama una homa, kukohoa na ugumu wa kupumua, kutafuta matibabu na wito mapema. Kufuata maelekezo ya mamlaka yako ya karibu. Kwa nini? Taifa na Serikali za Mitaa itakuwa na za hivi sasa taarifa juu ya hali ya katika eneo lako. Kupiga mapema itaruhusu mhudumu wa afya yako kwa haraka moja kwa moja wewe kituo cha afya ya haki. Hii pia kulinda na kusaidia kuzuia kuenea kwa virusi na maambukizi mengine. Kuendelea hadi tarehe juu ya karibuni COVID-19 maeneo yenye (miji au maeneo ya ndani ambapo COVID-19 ni kueneza sana). Kama inawezekana, kuepuka kusafiri kwa maeneo - hasa kama wewe ni mtu mzima au kuwa na ugonjwa wa kisukari, moyo au ugonjwa wa mapafu. Kwa nini? Una nafasi kubwa ya kuambukizwa COVID-19 katika moja ya maeneo haya."
+
+  utter_answer_covid_how_spread:
+  - text: "Watu wanaweza kupata COVID-19 na wengine walio na virusi vya ukimwi. ugonjwa huo unaweza kuenea kutoka mtu mmoja hadi mwingine kwa njia ya matone ndogo kutoka pua au mdomo ambayo ni kuenea wakati mtu aliye na mafua COVID-19 au exhales. matone haya nchi juu ya vitu na sehemu karibu mtu. Watu wengine kisha kupata COVID-19 kwa kugusa vitu hizi au nyuso, basi kugusa macho yao, pua au mdomo. Watu wanaweza pia kupata COVID-19 kama kupumua katika matone kutoka kwa mtu kwa COVID-19 ambao anapokohoa nje au exhales matone. Hii ni kwa nini ni muhimu kukaa zaidi ya mita 1 (3 miguu) mbali na mtu ambaye ni mgonjwa. WHO ni kutathmini utafiti unaoendelea juu ya njia COVID-19 ni kuenea na itaendelea kutumia matokeo ya utafiti updated."
+
+  utter_answer_covid_what_is_corona_covid-19:
+  - text: "Coronaviruses ni familia kubwa ya virusi ambavyo vinaweza kusababisha ugonjwa kwa wanyama au binadamu. Kwa binadamu, coronaviruses kadhaa inayojulikana kusababisha maambukizi ya koo kuanzia baridi ya kawaida na magonjwa kali zaidi kama vile Mashariki ya Kati Respiratory Syndrome (mers) na kali papo hapo Respiratory Syndrome (SARS). coronavirus hivi karibuni aligundua husababisha ugonjwa coronavirus COVID-19. COVID-19 ni ugonjwa wa kuambukiza unaosababishwa na coronavirus hivi karibuni kupatikana. Hii virusi mpya na ugonjwa walikuwa haijulikani kabla ya kuzuka ilianza Wuhan, China, Desemba 2019."
+
+  utter_answer_covid_symptoms:
+  - text: "Yoyote ya: Homa, maumivu, maumivu ya kichwa, kukohoa, kupoteza hisia za harufu inaweza kuwa na dalili"
+
+  utter_answer_wash_hands_how:
+  - text: "Lazima kuosha mikono yako na maji safi na sabuni, angalau kwa sekunde 20. Ikiwa hauna upatikanaji wa sabuni na matumizi ya maji sanitizer."
+
+  utter_answer_wash_hands_frequency:
+  - text: "Lazima kunawa mikono yako mara mingi"
+
+  utter_answer_collect_fallback:
+  - text: "Inaonekana kama mimi nina matatizo. Samahani kwa hilo. Hebu tuanze tena, namna gani naweza kukusaidia leo?"
+
+  utter_answer_fallback:
+  - text: "Samahani sikusikia hiyo. Tafadhali rudilia kusema tena."
+
+  utter_answer_goodbye:
+  - text: "Asante. Tafadhali tuandikiye tena kama una maswali yoyote."
+
+  utter_answer_greeting:
+  - text: "Hello! Naweza kujibu maswali kuhusu COVID-19 naweza kukusaidia na leo?"
+
+session_config: 
+  session_expiration_time: 60 
+  carry_over_slots_to_new_session: true
