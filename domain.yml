@@ -144,7 +144,7 @@ responses:
   - text: "Watu wanaweza kupata COVID-19 na wengine walio na virusi vya ukimwi. ugonjwa huo unaweza kuenea kutoka mtu mmoja hadi mwingine kwa njia ya matone ndogo kutoka pua au mdomo ambayo ni kuenea wakati mtu aliye na mafua COVID-19 au exhales. matone haya nchi juu ya vitu na sehemu karibu mtu. Watu wengine kisha kupata COVID-19 kwa kugusa vitu hizi au nyuso, basi kugusa macho yao, pua au mdomo. Watu wanaweza pia kupata COVID-19 kama kupumua katika matone kutoka kwa mtu kwa COVID-19 ambao anapokohoa nje au exhales matone. Hii ni kwa nini ni muhimu kukaa zaidi ya mita 1 (3 miguu) mbali na mtu ambaye ni mgonjwa. WHO ni kutathmini utafiti unaoendelea juu ya njia COVID-19 ni kuenea na itaendelea kutumia matokeo ya utafiti updated."
 
   utter_answer_covid_what_is_corona_covid-19:
-  - text: "Virusi ya corona ni familia kubwa ya virusi amba\yo inaweza kutokeza ugonjwa kwa manyama ao binadamu. Kwa binadamu, virusi za corona zinajulikana kusababisha maambukizi ya viungo vya kupumua kuanzia homa ya kawaida ya baridi na magonjwa kali zaidi kama vile ya Mashariki ya Kati (MERS) na (SARS). Virusi ya corona yenyi ilitambuliwa izi siku inaleta ugonjwa ya virusi ya corona COVID-19. COVID-19 ni ugonjwa ya kuambukia yenyi ineletwa na virusi ya corona yenyi ilitambuliwa izi masiku. Iyi virusi na ugonjwa bilikuwa habiya julikana mbele muripuko ianze apo Wuhan, China, Decemba 2019."
+  - text: "Virusi ya corona ni familia kubwa ya virusi ambavyo inaweza kutokeza ugonjwa kwa manyama ao binadamu. Kwa binadamu, virusi za corona zinajulikana kusababisha maambukizi ya viungo vya kupumua kuanzia homa ya kawaida ya baridi na magonjwa kali zaidi kama vile ya Mashariki ya Kati (MERS) na (SARS). Virusi ya corona yenyi ilitambuliwa izi siku inaleta ugonjwa ya virusi ya corona COVID-19. COVID-19 ni ugonjwa ya kuambukia yenyi ineletwa na virusi ya corona yenyi ilitambuliwa izi masiku. Iyi virusi na ugonjwa bilikuwa habiya julikana mbele muripuko ianze apo Wuhan, China, Decemba 2019."
 
   utter_answer_covid_symptoms:
   - text: "Homa, maumivu, maumivu ya kichwa, kugohola, kupoteza harufu inaweza kuwa ma alama"
@@ -162,7 +162,7 @@ responses:
   - text: "Samahani sikusikia hiyo. Tafadhali rudilia kusema tena."
 
   utter_answer_goodbye:
-  - text: "Asante. Tafadhali tuandikiye tena kama una maswali yoyote."
+  - text: "Asante! Tafadhali tuandikiye tena kama una maswali yoyote."
 
   utter_answer_greeting:
   - text: "Jambo! Naweza kujibu maswali kuhusu COVID-19 naweza kukusaidia aye leo?"
